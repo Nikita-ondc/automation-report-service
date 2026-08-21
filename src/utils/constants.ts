@@ -88,7 +88,15 @@ export const HEALTH_INSURANCE_FLOWS = [
   "Health_Insurance_Application(PRE-ORDER-Family)",
   "Claim_Health_Insurance(Family)",
   "Renew_Health_Insurance(Family)",
-  "Cancel_Health_Insurance(Family)"
+  "Cancel_Health_Insurance(Family)",
+  "Health_Insurance_Application(PRE-ORDER-Family-With-ManualReview)",
+  "Health_Insurance_Application(PRE-ORDER-Individual-With-ManualReview)",
+  "Payment_Failure_Health_Insurance(Family)",
+  "Payment_Failure_Health_Insurance(Individual)",
+  "Payment_Failure_Health_Insurance(PRE-ORDER-Family-With-ManualReview)",
+  "Payment_Failure_Health_Insurance(PRE-ORDER-Individual-With-ManualReview)",
+  "Health_Insurance_Application(PRE-ORDER-Family-Without-CIS)",
+  "Health_Insurance_Application(PRE-ORDER-Individual-Without-CIS)"
 ]
 
 export const GIFT_CARD_FLOWS = [
