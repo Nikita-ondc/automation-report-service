@@ -18,4 +18,7 @@ export type ValidationAction =
   | "issue"
   | "on_issue"
   | "issue_status"
-  | "on_issue_status";
+  | "on_issue_status"
+  | "recon"
+  | "on_recon"
+  | "catalog_rejection";
